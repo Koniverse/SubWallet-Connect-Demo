@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.wallet-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 8px 16px 16px;
+  margin-bottom: 16px;
+  background-color: #444;
+  border-radius: 16px;
+}
+
+.wallet-block .icon {
+  margin-right: 16px;
+  width: 90px;
+  ;
+}
+
+.wallet-block .content {
+    text-align: left;
+  flex: 1
+}
+
+.wallet-block .content button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
